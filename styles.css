@@ -1,0 +1,138 @@
+/* General reset for margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Section */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+header nav a:hover {
+    color: #ff5733;  /* Hover color */
+}
+
+/* Main Section */
+main {
+    max-width: 840px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+main h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+main img {
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
+
+main p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    text-align: center;
+    color: #555;
+}
+
+/* Aside Section */
+aside {
+    width: 20rem;
+    margin: 1rem auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);  /* 1️⃣ Light border with transparency */
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+}
+
+aside h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+
+aside p {
+    font-size: 1rem;
+    line-height: 1.6;
+    text-align: justify;
+    color: #444;
+}
+
+/* Footer Section */
+footer {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    border-top: 1px solid #fff;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    main {
+        padding: 15px;
+    }
+
+    aside {
+        width: 90%;
+        margin: 10px 0;
+    }
+
+    footer p {
+        font-size: 0.9rem;
+    }
+
+    header nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    header nav a {
+        font-size: 1.2rem;
+    }
+}
