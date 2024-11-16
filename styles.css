@@ -74,7 +74,7 @@ aside {
     width: 20rem;
     margin: 1rem auto;
     padding: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.2);  /* 1️⃣ Light border with transparency */
+    border: 1px solid rgba(0, 0, 0, 0.2);  /*
     background-color: #eee;
     color: #333;
     text-align: center;
