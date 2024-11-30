@@ -1,39 +1,82 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
+
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="James Mburu Maina's home page for WDD 130, showcasing personal information and projects.">
-    <meta name="author" content="James Mburu Maina">
-    <title>James Mburu Maina | WDD 130</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - White Water Rafting</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome for Social Media Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <!-- Custom CSS File -->
+  <link rel="stylesheet" href="styles/rafting.css">
 </head>
+
 <body>
-    <!-- Header Section -->
-    <header>
-        <nav>
-            <a href="#">Home</a>
-            <a href="wwr/">Rafting Website</a>
-        </nav>
-    </header>
+  <header>
+    <div class="logo-container">
+      <img src="images/logo.png" alt="White Water Rafting Logo">
+      <h1>White Water Rafting</h1>
+    </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="trips.html">Trips</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
 
-    <!-- Main Content Section -->
-    <main>
-        <h1>James Mburu Maina | WDD 130</h1>
-        <img src="profile.jpeg" alt="Hello, my name is James Mburu Maina" width="200">
-        <p>My name is James Mburu Maina, and I hail from Nairobi, Kenya. I find great pleasure in exploring new technological frontiers, savoring traditional cuisine, indulging in visual media, embarking on hiking expeditions, and cherishing moments with friends.</p>
-    </main>
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <img src="images/raft1.jpg" alt="Rafting Adventure">
+      <h1>Welcome to White Water Rafting Adventures</h1>
+      <article>
+        <img src="images/raft2.jpg" alt="Happy Client">
+        <p>At White Water Rafting, our mission is to provide thrilling, unforgettable experiences for adventurers of all levels.</p>
+      </article>
+    </section>
 
-    <!-- Add the Aside Section here -->
-    <aside>
-        <h2>Kenya</h2>
-        <img src="kenya.jpg" alt="Kenyan landscape" width="200" height="auto">
-        <p>Kenya is a country in East Africa. It is known for its stunning landscapes, wildlife, and diverse cultures. The capital city, Nairobi, is a vibrant metropolis that is home to both bustling markets and tranquil nature reserves. Kenya's wildlife is world-renowned, with national parks like the Maasai Mara and Amboseli attracting tourists from around the world.</p>
-    </aside>
+    <!-- History Section -->
+    <section>
+      <h2>History</h2>
+      <p>Since our founding in 2005, we have guided countless adventurers through some of the most scenic and challenging waterways.</p>
+    </section>
 
-    <!-- Footer Section -->
-    <footer>
-        <p>©️2024 🌴 James Mburu Maina 🌴 Nairobi, Kenya</p>
-    </footer>
+    <!-- Gallery Section -->
+    <section>
+      <h2>Adventure Awaits You!</h2>
+      <div class="gallery">
+        <img src="images/raft3.jpg" alt="Adventure 3">
+        <img src="images/raft4.jpg" alt="Adventure 4">
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 White Water Rafting Adventures. Created by James Mburu Maina.</p>
+
+      <!-- Social Media Links -->
+      <nav class="social-links">
+        <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+        <a href="https://twitter.com" target="_blank" aria-label="Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </nav>
+    </div>
+  </footer>
 </body>
+
 </html>
