@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <img src="logo.png" alt="Logo" />
+                <span>White Water Rafting</span>
+            </div>
+            <nav>
+                <ul class="navigation">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Get in Touch</h1>
+            <p>We'd love to hear from you! Whether you have a question, need information, or want to book an adventure, we're here to help.</p>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact-section">
+        <h2>Contact Us</h2>
+        <div class="contact-form">
+            <form action="submit-form" method="POST">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <input type="submit" value="Submit Inquiry">
+            </form>
+        </div>
+    </section>
+
+    <!-- Find Us on the Map Section -->
+    <section class="map-section">
+        <h2>Find Us on the Map</h2>
+        <iframe src="https://maps.google.com/maps?q=123%20Rafting%20Road%2C%20Adventureland&output=embed" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <!-- Meet Our Team Section -->
+    <section class="team-section">
+        <h2>Meet Our Team</h2>
+        <div class="team-grid">
+            <div class="team-member">
+                <img src="image1.JPG" alt="James maina">
+                <h3>James maina</h3>
+                <p>Rafting Guide</p>
+            </div>
+            <div class="team-member">
+                <img src="image2.JPG" alt="peter kamau">
+                <h3>peter kamau</h3>
+                <p>Safety Expert</p>
+            </div>
+            <div class="team-member">
+                <img src="image4.JPG" alt="lucas othiambo">
+                <h3>lucas othiambo</h3>
+                <p>Customer Support</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 White Water Rafting. All Rights Reserved.</p>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
+
