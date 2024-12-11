@@ -609,3 +609,33 @@ footer .social-icons a:hover {
         max-width: 100%;
     }
 }
+/* Additional Contact Information Section */
+.additional-contact-info {
+    margin: 2rem auto;
+    text-align: center;
+    font-size: 1rem;
+    color: var(--text-color);
+}
+
+.additional-contact-info p {
+    margin: 5px 0;
+}
+
+.additional-contact-info strong {
+    color: var(--primary-color);
+}
+/* Contact Info Section */
+footer .contact-info {
+    text-align: center;
+    color: var(--text-color);
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+footer .contact-info p {
+    margin: 5px 0;
+}
+
+footer .contact-info strong {
+    color: var(--primary-color);
+}
